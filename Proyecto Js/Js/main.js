@@ -6,7 +6,7 @@ $(document).ready(function () {
     if(window.location.href.indexOf('index') > -1){
         $('.slider').bxSlider({
             mode: 'fade',
-            speed: '40'
+            
         });
 
     }
