@@ -1,0 +1,239 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   
+
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+
+  
+  #global{
+   background:white;
+   margin-top: 50px;
+   padding: 20px;
+   margin: 0px auto;
+   width: 65%;
+   box-shadow: 0px 0px 2px gray;
+       
+  }
+  #logo{
+
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    background: #235E3D;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  #menu{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+  }
+  #menu ul{
+    line-height: 46px;
+    list-style: none;
+  }
+  #menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+
+  }
+ 
+
+  #menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #posts{
+    width: 65%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .Post{
+    padding: 5px;
+  }
+  .Post h2{
+     font-size: 50px;
+     color: #333;
+  }
+  .Post .date{
+    display: block;
+    color: gray;
+    margin-top: 5px;
+  }
+  .Post p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 17px;
+    text-align: justify;
+  }
+  .button-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 65px;
+    float: auto;
+  }
+  #sidebar img{
+       width: 100%;
+  }
+  #sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 31%;
+    float: right;
+  }
+  #sidebar h4{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    line-height: 10px;
+    color: #333;
+    text-align: center;
+  }
+  #sidebar p{
+    font-size: 15px;
+    text-align: justify;
+    float: left;
+  }
+
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="number"],select{
+  
+    padding: 5px;
+    border-radius: 1px;
+    border: solid 1px #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin-top: 5px;
+  }
+  
+
+
+  form input[type="submit"]:hover{
+    background: #333;
+ 
+ }
+footer{
+  font-family: Helvetica;
+  color: white;
+  height: 47px;
+  background: rgba(51, 51, 51, 0.70);
+  margin: 0px auto;
+  width: 65%;
+  padding-left: 20px;
+  padding-right: 20px;
+ margin-top: 50px;
+ line-height: 47px;
+
+}
+.bx-wrapper, .bx-viewport{
+  height: 600px !important;
+}
+  
+#caja-temas{
+   background:rgba(51, 51, 51, 0.50);
+   width: 60px;
+   height: 100px;
+   position: fixed;
+   margin-top: 20%;
+   margin-left: 3px;
+   cursor: pointer;
+   
+}
+
+#verde, #azul, #rojo{
+      width: 25px;
+     height: 25px;
+     border: solid 1px white;
+     margin: 0px auto;
+     margin-top: 4px;
+}
+#verde{
+  background:#235E3D;}
+  #azul{
+    background: #080E95;}
+    #rojo{
+      background: #F41010;
+    }
+   .up{
+     
+    
+     text-decoration: none;
+     color: white;
+     width: 70px;
+     float: right;
+     align-content: center;
+     position: 0px fixed;
+   }
+   #boox{
+
+      width: 494px; 
+      height: 0px;
+   }
+   #box{
+     float: left;
+     font-family: 'Courier New', Courier, monospace;
+     width: 200px;
+     margin: 0px auto;
+     margin-top: 50px;
+     padding: 50px;
+     border:aliceblue dotted 6px;
+     font-size: 40px;
+     margin-left: 90px;
+     color: aliceblue;
+     background-color: #235E3D;
+   }
+  #Encabezado5{
+     
+    width: 175px;
+    font-size: 40px;
+     float: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  #acordeon{
+    margin-top: 20px;
+
+  }
+  #Box_Contacto{
+    width: 49%;
+    float: left;
+  }
+  #form_Contacto{
+   width: 60%;
+   margin-top: 10px;
+  }
+  #form_Contacto label{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 5px;
+
+  } 

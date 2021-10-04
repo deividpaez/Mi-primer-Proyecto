@@ -1,0 +1,30 @@
+body{
+    background-image: url(../img/halo.jpg);
+    background-attachment: fixed;
+  }
+#logo{
+
+    background:#080E95;}
+    
+      
+  
+    #menu ul li:hover{
+      background: #080E95;
+    }
+    .button-more{
+      
+      background: #080E95;
+      
+    }
+    form input[type="submit"]{
+      padding: 10px;
+      width: 60px;
+      background: #080E95;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  .ui-accordion .ui-accordion-header-active{
+    background-color: #080E95;
+  }
+  

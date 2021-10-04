@@ -1,0 +1,35 @@
+body{
+    background-image: url(../img/super-mario-bros-level-ending.jpg);
+    background-attachment: fixed;
+  }
+   
+  #global{
+    background: rgba(255, 255, 255, 0.8);
+    
+        
+   }
+#logo{
+
+    background:#F41010;}
+    
+      
+  
+    #menu ul li:hover{
+      background: #F41010}
+
+    .button-more{
+      
+      background: #F41010;
+      
+    }
+    form input[type="submit"]{
+      padding: 10px;
+      width: 60px;
+      background: #F41010;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  .ui-accordion .ui-accordion-header-active{
+    background-color: #F41010;
+  }

@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/thumb-1920-788052.jpg");
+    background-attachment: fixed;
+  }
+
+#logo{
+
+  background:#235E3D;}
+  
+    
+
+  #menu ul li:hover{
+    background: #235E3D;
+  }
+  .button-more{
+    
+    background: #235E3D;
+    
+  }
+  form input[type="submit"]{
+    padding: 10px;
+    width: 60px;
+    background: #235E3D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.ui-accordion .ui-accordion-header-active{
+  background-color: #235E3D;
+}
